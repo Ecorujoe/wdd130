@@ -52,3 +52,55 @@ h1 {
         color: var(--#D9BBF9);
     }
 }
+
+.hero {
+    position: relative;
+    background-image: url('images/rafting33_600.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: auto;
+    color: #D9BBF9;
+
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    
+}
+
+.hero h1 {
+    top: 20%;
+    left: 5%;
+    font-size: 3rem;
+}
+
+.hero article {
+    top: 50%;
+    left: 5%;
+    background-color: #9BF3F0;
+    padding: 1rem;
+}
+.hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-left: 1rem;
+  }
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.roboto-thin {
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
