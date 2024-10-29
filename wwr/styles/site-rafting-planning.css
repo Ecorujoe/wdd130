@@ -78,7 +78,7 @@
   }
   
   .hero{
-      background-image: url("../images/hero.webp");
+      background-image: url("/wwr/images/rafting7_600.jpg");
       background-repeat: no-repeat;
       background-attachment:fixed;
       background-size: cover;
@@ -91,7 +91,7 @@
       margin-top: 0;
   }
   .home-hero{
-      background-image: url("../images/home.webp");
+      background-image: url("/wwr/images/rafting33_600.jpg");
       background-repeat: no-repeat;
       background-attachment:fixed;
       background-size: cover;
@@ -134,8 +134,8 @@
       align-items:center;
       align-self: center;
       grid-row: 3/4;
-      background-color:#505033d8;
-      color:#d7d7ce;
+      background-color:var(--accent2-color);
+      color:var(--main-color);
   }
   
   .history-content{
@@ -211,7 +211,7 @@
       padding:10px;
   }
   #adventures:hover{
-      background-color: #505033;
+      background-color: var(--main-color);
       color: #d7d7ce;
       padding:10px;
   }
@@ -368,7 +368,7 @@
       margin-left: 150px;
   }
   .hero-trips{
-      background-image: url('../images/trips-hero.jpeg');
+      background-image: url('/wwr/images/rafting52_600.jpg');
       background-repeat:no-repeat;
       background-attachment:fixed;
       background-size:cover;
