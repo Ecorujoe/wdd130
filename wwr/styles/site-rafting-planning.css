@@ -335,7 +335,7 @@
   .figure-index{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      max-width: auto;
+      max-width:100%;
       height: auto;
       align-items: center;
       justify-content: center;
@@ -381,8 +381,8 @@
   }
   .trips-button{
       display: grid;
-      grid-template-columns: repeat(1fr, 3);
-      grid-template-columns: repeat(1fr, 3);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       align-items:center;
       font-size: larger;
   }
@@ -442,11 +442,11 @@
     *{
       box-sizing: border-box;
       scrollbar-color: transparent transparent; 
-      scrollbar-width: 0px;
+      scrollbar-width: none;
     }
     
     ::-webkit-scrollbar {
-      width: 0;
+      width: 12px;
     }
     
     ::-webkit-scrollbar-track {
